@@ -22,7 +22,7 @@
              ).toLocaleString()} =========================================\n`);
          await getthisIP();
          await $.wait(2 * 1000);
-             UA = require('./USER_AGENTS').USER_AGENT;
+             UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36';
              await $.wait(2 * 1000);
              if (debug) {
                 console.log(`\n【debug】 这是你的UA数据:\n ${UA}\n`);
